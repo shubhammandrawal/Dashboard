@@ -1,0 +1,40 @@
+.expenses{
+    margin: 2rem 0;
+    padding: 1rem;
+    width: 70%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.expenses-filter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.expenses-filter div{
+    display: flex;
+    flex-direction: column;
+}
+
+.expenses-filter div label{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.expenses-filter div span{
+    color: #ccc;
+}
+
+.expenses-filter select{
+    color: #ccc;
+    border-radius: 5px;
+    border: none;
+    background-color: #eaebf1;
+    padding: 5px;
+}
+
+/* .expenses-filter select option{
+    
+} */

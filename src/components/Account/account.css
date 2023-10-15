@@ -1,0 +1,73 @@
+.mid-container{
+    margin: 30px 50px;
+    width: 1280px;
+}
+
+.search-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.search-container input{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.search-container form button{
+    border: none;
+    background-color: #fff;
+    border-radius: 5px;
+    padding-top: 4px;
+    padding-bottom: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.boxes{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.boxes .box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+    width: 280px;
+    height: 140px;
+    border-radius: 10px;
+}
+
+.boxes .box .icon{
+    font-size: 46px;
+}
+
+.boxes .box .text{
+    display: flex;
+    flex-direction: column;
+}
+
+.boxes .box .text .earning{
+    color: #ccc;
+}
+
+.boxes .box .text .dollar{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.boxes .box .text .last-textsection{
+    display: flex;
+    gap: 5px;
+}
+
+.boxes .box .text .last-textsection .green{
+    color: green;
+}
